@@ -1,0 +1,37 @@
+{
+    "[c]": {
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": false,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.suggest.insertMode": "insert",
+        "editor.tabSize": 8,
+        "editor.wordBasedSuggestions": "currentDocument"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "files.associations": {
+        "*.h": "c"
+    },
+    "files.exclude": {
+        "**/*.a": true,
+        "**/*.dtb": true,
+        "**/*.ko": true,
+        "**/*.mod": true,
+        "**/*.mod.c": true,
+        "**/*.o": true,
+        "**/.*.*.cmd": true,
+        "**/.*.d": true,
+        "**/.*.S": true,
+        "**/.*.tmp": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/modules.order": true,
+        "**/Thumbs.db": true,
+        "arch/[a-w]*":  true,
+        "arch/xtensa": true,
+        "arch/[y-z]*": true,
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
