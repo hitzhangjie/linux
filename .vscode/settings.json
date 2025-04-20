@@ -9,7 +9,19 @@
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "files.associations": {
-        "*.h": "c"
+        "*.go": "go",
+        "*.puml": "plantuml",
+        "*.rst": "restructuredtext",
+        "*.h": "c",
+        "*.tcc": "c",
+        "bitset": "c",
+        "exception": "c",
+        "optional": "c",
+        "memory": "c",
+        "istream": "c",
+        "new": "c",
+        "ostream": "c",
+        "*.inc": "c"
     },
     "files.exclude": {
         "**/*.a": true,
